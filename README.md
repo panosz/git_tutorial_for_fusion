@@ -134,3 +134,29 @@ to verify that the name of the branch has changed.
 - When using PAT, make sure to work with the HTTPS and not the SSH addresses of the remotes
 
 
+## Basic Concepts
+
+### Commits
+- A commit is a snapshot of your repository at a specific point in time. It's like a checkpoint in your project's history. When you commit, you're essentially telling Git to record the current state of your project (as it is in the staging area). Each commit has a unique ID (a hash) and includes information about the changes made, the author, and a timestamp. You create a commit with the `git commit` command.
+
+### Staging Area
+- The staging area is like a prep zone for your commits. When you make changes to your files, they don't go directly into a commit. Instead, you selectively add these changes to the staging area. This allows you to group related changes into a single commit. The command git add is used to add changes to the staging area.
+
+
+### Branches
+- Branches in Git allow you to diverge from the main line of development and work independently. Think of them as parallel timelines or workspaces. The default branch in Git is master (or main in recent versions). When you create a branch, you're creating a new line of development. You can switch between branches using `git checkout`. When you're done working in a branch, you can merge its changes back into the main branch.
+
+### HEAD
+- `HEAD` is a pointer in Git that points to the current location in your repository. It's usually pointing to the latest commit in your current branch. When you switch branches with `git checkout`, the `HEAD` pointer moves to the tip of the new branch. Understanding where the `HEAD` is pointing can help you understand what changes are included in your current working state.
+
+### Remote Repositories
+- These are versions of your project that are hosted on the internet or network somewhere. They are crucial for collaborating with other developers. The most common operations with remote repositories are `git push` (to send your local changes to a remote repo) and `git pull` (to fetch and merge changes from the remote repo to your local one).
+
+### Merge
+- Merging is the process of combining the changes from one branch into another. It's a common way to integrate the work from different branches. A successful merge results in a new commit on the receiving branch, which includes the changes from the merged branch.
+
+### Conflict
+- A conflict occurs when Git can't automatically merge changes from different branches. This usually happens when the same part of a file has been modified in both branches since their divergence. Git will mark the file as conflicted and ask you to resolve the differences manually.
+
+
+
