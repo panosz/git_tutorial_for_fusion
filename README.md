@@ -123,3 +123,14 @@ to verify that the name of the branch has changed.
         ```bash
        git pull origin master
         ```
+
+
+## Authenticating with github
+- Authenticating with github may require a bit of effort.
+- GitHub no longer supports username and password authentication for interaction with the repositories (push/pull)
+- One option is to use personal access tokens. This is what we will follow here.
+- To create your PAT, follow these [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
+- Instructions on how to use personal access tokens [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#using-a-personal-access-token-on-the-command-line)
+- When using PAT, make sure to work with the HTTPS and not the SSH addresses of the remotes
+
+
