@@ -10,7 +10,9 @@ This is a tutorial for windows users written by a Linux user, so it will definit
 
 ###   Install Git:
 - Run the downloaded installer.
-- Follow the installation instructions. You can leave most options at their default settings, but ensure that "Git Bash" is included and "Use Git from the Windows Command Prompt" is selected.
+- Follow the installation instructions. You can leave most options at their default settings, but ensure that:
+    * [ ] "Git Bash" is included 
+    * [ ] "Use Git from the Windows Command Prompt" is selected.
 
 ## Setup
 
