@@ -1,5 +1,16 @@
 # A Brief Turorial on Git
 
+This is a tutorial for windows users written by a Linux user, so it will definitely contain some errors. 
+
+## Installing Git
+
+### Download Git for Windows:
+- Visit the official Git website at [git-scm.com](https://git-scm.com/).
+- Download the latest version for Windows.
+
+###   Install Git:
+- Run the downloaded installer.
+- Follow the installation instructions. You can leave most options at their default settings, but ensure that "Git Bash" is included and "Use Git from the Windows Command Prompt" is selected.
 
 ## Setup
 
