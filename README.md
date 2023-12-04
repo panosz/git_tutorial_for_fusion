@@ -25,19 +25,20 @@ attractive experience and can also help guide you through your first steps in ma
 
 - Download and install `Sublime Merge` git client [here](https://www.sublimemerge.com/)
 
-## Setup
+## Quick Start
+
+### Setup a local repository
 - Create a new folder for your project and type
 ```shell
 git init
 ```
 This will create a .git subfolder
 
-
 - type
 ```shell
 git status
 ```
-This will print a message:
+This will print a message like the following:
 
     On branch <branch_name>
 
@@ -52,10 +53,73 @@ rename it to "main":
 git branch -m main 
 ```
 
-Now type again
+Now type again:
 ```shell
 git status
 ```
 to verify that the name of the branch has changed.
 
+### Working with files
+- Add some files to the folder 
 
+### Add Files to Staging Area:
+
+- To add a specific file:
+    ```bash
+    git add filename
+    ```
+- To add all files:
+    ```bash
+    git add .
+    ```
+
+#### Commit Changes:
+
+- Commit your changes with a message:
+    ```bash
+    git commit -m "Your commit message"
+    ```   
+#### View Commit History:
+
+- To see the commit history:
+    ```bash
+    git log
+    ```
+
+#### Branching
+
+1.   Create a New Branch:
+    - To create and switch to a new branch:
+        ```bash
+        git checkout -b new-branch-name
+        ```
+
+2. Switch Between Branches:
+    - To switch to an existing branch:
+        ```bash
+        git checkout branch-name
+        ```   
+3. Merge Branches:
+    - To merge a branch into your current branch:
+        ```bash
+        git merge branch-name
+        ```
+
+#### Working with Remote Repositories
+1. Add a Remote Repository:
+     -  To link a remote repository (like one on GitHub):
+        ```bash
+        git remote add origin https://github.com/username/repository.git
+        ```
+2. Push Changes to Remote:
+   - To push your committed changes:
+        ```bash
+        git push -u origin master
+        ```
+
+2. Pull Changes from Remote:
+
+   - To update your local repository with changes from the remote:
+        ```bash
+       git pull origin master
+        ```
