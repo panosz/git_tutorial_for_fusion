@@ -62,7 +62,7 @@ to verify that the name of the branch has changed.
 ### Working with files
 - Add some files to the folder 
 
-### Add Files to Staging Area:
+#### Add Files to Staging Area:
 
 - To add a specific file:
     ```bash
