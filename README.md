@@ -14,8 +14,12 @@ This is a tutorial for windows users written by a Linux user, so it will definit
     * [ ] "Git Bash" is included 
     * [ ] "Use Git from the Windows Command Prompt" is selected.
 
-## Setup
 
+## Installing Sublime
+Much of the value of git is lost without good editor support. `Sublime Text` is a neat editor with integrated editor support. 
+- Download it [here](https://www.sublimetext.com/)
+
+## Setup
 - Create a new folder for your project and type
 ```shell
 git init
